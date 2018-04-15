@@ -1,6 +1,9 @@
 server:
   port: 8987
+
 eureka:
   client:
+    registerWithEureka: true
+    fetchRegistry: true
     serviceUrl:
       defaultZone: http://localhost:2000/eureka
