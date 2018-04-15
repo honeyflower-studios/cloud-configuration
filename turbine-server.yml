@@ -6,7 +6,7 @@ turbine:
 
 eureka:
   client:
-    registerWithEureka: true
+    registerWithEureka: false
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://localhost:2000/eureka
