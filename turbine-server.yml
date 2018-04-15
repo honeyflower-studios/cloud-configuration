@@ -2,8 +2,12 @@ server:
   port: 8987
 
 turbine:
-  app-confi: payment-service,user-service
-
+  aggregator:
+    clusterConfig: USER-SERVICE
+  app-config: payment-service,user-service
+spring:
+  application:
+    name: turbine-server
 eureka:
   client:
     registerWithEureka: false
