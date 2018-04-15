@@ -1,6 +1,9 @@
 server:
   port: 8987
 
+turbine:
+  app-confi: payment-service,user-service
+
 eureka:
   client:
     registerWithEureka: true
