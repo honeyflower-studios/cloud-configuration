@@ -19,7 +19,7 @@ hystrix:
 spring:
   boot:
     admin:
-      url: http://localhost:8080
+      url: http://localhost:9988
 management:
   security:
     enabled: false
